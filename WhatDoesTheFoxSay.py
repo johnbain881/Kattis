@@ -1,15 +1,7 @@
 import sys
 from typing import List, Any
 
-
-
-
-
-
-
 num_cases = int(sys.stdin.readline())
-
-
 
 def test_function(list_of_str):
     while True:
@@ -28,11 +20,6 @@ def test_function(list_of_str):
         recording = not_this_animal_noise
     for j in range(0, len(recording)):
         sys.stdout.write(recording[j] + " ")
-
-
-
-
-
 
 for x in range(0, num_cases):
     recording = sys.stdin.readline().strip().split(" ")
