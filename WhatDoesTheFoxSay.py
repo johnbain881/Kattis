@@ -2,10 +2,8 @@ import sys
 from typing import List, Any
 
 num_cases = int(sys.stdin.readline())
-
 for x in range(0, num_cases):
     recording = sys.stdin.readline().strip().split(" ")
-
     while True:
         animal_and_noise = sys.stdin.readline().split(" ")
         sys.stdout.write(str(animal_and_noise))
